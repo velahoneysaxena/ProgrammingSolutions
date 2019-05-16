@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    int di,de,q,r;
+    printf("enter dividend =");
+    scanf("%d",&di);
+    printf("\n enter divisior =");
+    scanf("%d",&de);
+    q=di/de;
+    r=di%de;
+    printf("Quotient is = %d", q);
+    printf("Reminder is = %d",r);
+    return 0;
+}
