@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int n;
+
+    // printf() dislpay output 
+    printf("Enter an num: ");  
+    
+    // scanf() reads the input
+    scanf("%d", &num);  
+    
+    // printf() displays the output
+    printf("You entered: %d", num);
+    return 0;
+}
+
